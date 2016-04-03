@@ -1,0 +1,12 @@
+ui.VFDimg=figure('numbertitle','off','menubar','none','position',[450 300 600 450]);
+set(ui.VFDimg, 'WindowButtonDownFcn','done = 1;');
+% axis equal;
+hold on;
+axis off;
+title('VFD Diagram','fontsize',15);
+ui.VFDimg = imread('driving-energy-efficiency-in-motors-vfd-diagram.png');
+axis([0 600 0 495]);
+set(axes,'position',[0 0 1.1 0.9]);
+hold on;
+imshow(ui.VFDimg);
+% title('VFD Diagram','fontsize',15);

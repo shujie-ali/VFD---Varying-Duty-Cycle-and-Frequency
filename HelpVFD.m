@@ -1,0 +1,5 @@
+function HelpVFD( source, eventdata )
+%HELPVFD Summary of this function goes here
+%   Detailed explanation goes here
+msgbox([{'VFD is abriviation of Veriable Frequency Drive (@Shujaat Ali)'};{''};{'If you want to run any of your device on a constant frequency and voltage'};{''};{'If source frequency and voltage are varing and your device runs on a steady input it is the best device'};{''};{'*User Manual'};{''};{'Enter the frequency of your required wave and click bottom button to start motors working to see if your device is working or not!!'};{''};{'You can also enter the required RPMs at which you want to run your deice it will automatically model the frequency of your output'};{''};{'you can also change the magnitude of your output voltage.For it enter your required voltages, othervise they are of the main aupply by default'}]);
+end
